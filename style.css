@@ -1,0 +1,458 @@
+html {
+   scroll-behavior: smooth;
+ }
+
+
+.hero{
+    background-image: url(./imag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+  
+
+}
+.sec-1{
+    display: flex;
+}
+.sec1 p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px 40px;
+
+}
+.sec2{
+   margin-left: 400px;
+   margin-top: 40px;
+}
+.sec2 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    margin-left:30px;
+    font-size: 18px;
+}
+.sec2 a:hover{
+    background-color: rgba(166, 160, 160,0.6);
+    padding: 6px;
+    border-radius: 2px;
+    transition: 1s;   
+}
+@media only screen and (max-width:1762px){
+    
+    .box2{
+       display: none;
+       
+       
+    }
+
+}
+@media only screen and (max-width:1280px){
+    
+     .box2{
+        display: none;
+        
+        
+     }
+
+}
+
+@media only screen and (max-width:1024px) {
+    .sec2{
+        margin-left: 300px;
+    
+     }
+     .sec2 a{
+        margin-left: 15px;
+        font-size: 18px;
+        
+     }
+     .box2{
+        display: none;
+     }
+     .hero{
+        height: 90vh;
+     }
+     .profile img{
+      position: relative;
+      top: -50px;
+     }
+     .intro{
+        margin-top: -60px;
+     }
+     .iconss{
+       
+        margin-left: 180px;
+       margin-top: -50px;
+       
+        
+     }
+    
+}
+@media only screen and (max-width:786px){
+    .profile img{
+       position: relative;
+       right: 150px;
+       }
+       .intro{
+        position: relative;
+       right: 150px;
+       }
+       .iconss{
+        
+      position: relative;
+      right: 180px;
+         
+     }
+     .cont1{
+      position: relative;
+      right: 200px;
+     }
+
+}
+@media only screen and (max-width:992px){
+    .sec2{
+      display: none;
+    
+     }
+     .box2{
+        display: block;
+        margin-left: 300px;
+        
+     }
+
+}
+@media only screen and (max-width:425px){
+    .sec2{
+      display: none;
+    
+     }
+     .box2{
+        display: block;
+        margin-left: 180px;
+        
+     }
+     .hero{
+        width: 550px;
+        height: 550px;
+        
+     }
+     
+     .profile img{
+        position: relative;
+        right: 280px;
+        top: -10px;
+        }
+        .intro{
+            position: relative;
+            right: 280px;
+            top: 20px;
+            bottom: 50px;
+        }
+        .intro1{
+           
+           margin-right: -1200px;
+           margin-top: 20px;
+           
+
+        }
+        .intro2{
+            margin-right: -1000px;
+        }
+        .intro3{
+            margin-right: -800px;
+        }
+        .iconss{
+            position: relative;
+            left: -260px;
+
+        }
+        .on1{
+            padding: 35px;
+            border-radius: 50%;
+         }
+        
+         
+         .on2{
+            background-color: rgba(136, 90, 180, 0.7);
+            padding: 35px;
+            
+            border-radius: 50%;
+            
+         }
+         
+         .on3{
+            background-color: rgba(136, 90, 180, 0.7);
+            padding: 35px;
+            
+            border-radius: 50%;
+            
+         }
+         
+         .on4{
+            background-color: rgba(136, 90, 180, 0.7);
+            padding: 35px;
+         
+            border-radius: 50%;
+            
+         }
+         .cont1{
+            position: relative;
+            right: 400px;
+         }
+         
+         
+
+}
+@media only screen and (max-width:320px){
+    .sec2{
+      display: none;
+    
+     }
+     .box2{
+        display: block;
+        margin-left: 60px;
+        
+     }
+     .profile img{
+        position: relative;
+        right: 330px;
+        top: -10px;
+        }
+        .intro{
+            position: relative;
+            right: 320px;
+            top: 20px;
+            bottom: 50px;
+        }
+        .cont1{
+         position: relative;
+         right: 200px;
+         width: 300px;
+      }
+      .cont1{
+         position: relative;
+         left: -400px;
+         width: 300px;
+      }
+      .cont{
+         width: 1200px;
+      }
+        
+     
+
+}
+/* OFFCANVA INSIDE WORK */
+.bk{
+    background-color: plum;
+}
+.bk2{
+    margin-left: 100px;
+
+}
+.one{
+     text-decoration: none;
+     font-size: 20px; 
+     display: block;
+     margin: 30px;
+     font-weight: 700;
+     color: white;
+}
+/* OUTSIDE WORK OFFCANVA */
+.box{
+font-size: 25px;
+}
+.box2{
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+/* SECTIOn 02  */
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 400px;
+    border: 2px solid white;
+    box-shadow:6px 6px 5px white ;   
+}
+.profile img:hover{
+    border: 2px solid purple;
+    box-shadow:6px 6px 5px purple; 
+   
+}
+
+.intro1{
+    color: white;
+    margin-left: 400px;
+    font-weight: 700;
+    font-size: 28px;
+  
+}
+.intro2{
+    color: white;
+    margin-left: 380px;
+    font-weight: 400;
+    font-size: 20px;
+  
+}
+.intro3{
+    margin-left: 470px;
+  
+}
+ /* SECTION 
+ ICONS SECTION */
+ .iconss{
+    display: flex;
+    margin-left: 200px;
+   margin-top: -50px;
+   
+    
+ }
+ .on1{
+    background-color: rgba(136, 90, 180, 0.7);
+    padding: 35px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px -3px 4px white;
+    
+ }
+ 
+ .onn1{
+    font-size: 30px;
+    color: white;
+ }
+ .on2{
+    background-color: rgba(136, 90, 180, 0.7);
+    padding: 35px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px -3px 4px white;
+    
+ }
+ .onn2{
+    font-size: 30px;
+    color: white;
+ }
+ .on3{
+    background-color: rgba(136, 90, 180, 0.7);
+    padding: 35px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px -3px 4px white;
+    
+ }
+ .onn3{
+    font-size: 30px;
+    color: white;
+ }
+ .on4{
+    background-color: rgba(136, 90, 180, 0.7);
+    padding: 35px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: -3px -3px 4px white;
+    
+ }
+ .onn4{
+    font-size: 30px;
+    color: white;
+ }
+ /* ABOUT SECTION */
+ .about{
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 3px 6px 10px  rgba(136, 90, 180, 0.7) ;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* BASIC INFORMATIO */
+ .some{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .basic1{
+    display: flex;
+    
+ }
+ .basic2{
+    font-size: 15px;
+    font-weight: 700;
+ }
+ .basic3{
+margin-left: 60px;
+ }
+ /* Professional Skills */
+ .pf{
+   margin-top: 90px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .skills{
+   background-color: white;
+   box-shadow: 3px 6px 10px  rgba(136, 90, 180, 0.7) ;
+   margin-top: 30px;
+   padding: 40px;
+
+ }
+ .sk3{
+ background-color: rgba(136, 90, 180, 0.7) ;
+ border: 2px solid purple;
+ width: 300px;
+ border-radius: 20px;
+ text-align: center;
+ color: white;
+ }
+ .sk2{
+   font-size: 20px;
+   font-weight: 600;
+ }
+ /* EDUCATIOn */
+ .edu{
+   box-shadow: 3px 6px 10px  rgba(136, 90, 180, 0.7) ;
+
+   color: rgba(136, 90, 180, 0.7) ;
+   padding: 30px;
+ }
+ .edu1 h2{
+   font-weight: 700;
+   font-size: 20px;
+   color: black;
+
+ }
+ .edu3{
+   color: gray;
+   font-weight: 700;
+ }
+ /* .CONTACT */
+.cont{
+   background-color: rgba(127, 102, 151, 0.3) ;
+   margin-top: 50px;
+}
+.fo{
+   font-weight: 800;
+   font-size: 20px;
+}
+.cont1{
+   background-color: white;
+   text-align: center;
+   padding: 40px;
+   width: 500px;
+   height: 500px;
+   margin-left: 300px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   box-shadow: 3px 6px 10px  rgba(50, 30, 68, 0.7) ;
+  
+}
+.bh{
+   background-color: rgba(136, 90, 180, 0.7) ;
+}
+.las h1{
+   margin-top: 40px;
+   text-align: center;
+
+}
